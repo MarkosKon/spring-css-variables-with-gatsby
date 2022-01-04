@@ -1,0 +1,29 @@
+body {
+  font-family: system-ui;
+  margin: 0;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+:root {
+  --from: #3cffd0;
+  --to: #277ef4;
+}
+
+.block {
+  width: 20vw;
+  height: 20vw;
+  display: block;
+  border-radius: 8px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+}
